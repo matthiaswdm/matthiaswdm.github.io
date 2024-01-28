@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmeldungsseite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Anmeldung für Vorträge</h1>
+        <p>Bitte geben Sie für die Vorträge am 22.02.2024, der Besuch der Rotarier in den 11. Klassen, ihren Vor- und Nachnamen ein und wählen sie drei Vorträge aus, die sie Besuchen wollen.</p>
+        <form id="registrationForm">
+            <label for="fullName">Vor- und Nachname:</label>
+            <input type="text" id="fullName" required>
+
+            <label for="selectedTalk1">Vortrag auswählen:</label>
+            <select id="selectedTalk1" class="selectedTalk" required>
+                <option value=""></option>
+                <option value="Christoph Schmid">Christoph Schmid - Bankwesen, kommunale Verwaltung</option>
+                <option value="Dr. Christian Wiesner">Dr. Christian Wiesner - Informatik, Softwarearchitekt im Bereich der kommunalen Verwaltung</option>
+                <option value="Albert Sedlmaier">Albert Sedlmaier - Maschinenbau, Unternehmer</option>
+                <option value="Beate Berndl">Beate Berndl - Wirtschaftswissenschaften, Diplomkauffrau, Consulting
+                </option>
+                <option value="Dr. Claus Schmid">Dr. Claus Schmid - Biologie, Patentwesen, Patentanwalt</option>
+                <option value="Dr. Stefan Schwerd">Dr. Stefan Schwerd - Informatik, BWL, Director IT, Datamanagement,
+                    Pharmaindustrie</option>
+                <option value="Dr. Regina Schwerd">Dr. Regina Schwerd - Chemie, Forschung Fraunhoferinstitut</option>
+                <option value="Thomas Jarzina">Thomas Jarzina - Kommunikationsdesign, Mediengestaltung</option>
+                <option value="Dr. Eichhorn">Dr. Eichhorn - Elektroingenieur, Digitale Eisenbahntechnik, Leiter eines
+                    globalen Geschäftsbereichs</option>
+                <option value="Dominik Grau">Dominik Grau - Betriebswirtschaft, Entwicklung von DIN-Normen im Bereich KI
+                </option>
+                <option value="Dr. Lilian Kleewitz">Dr. Lilian Kleewitz - Jura, Rechtsanwältin</option>
+                <option value="Dr. Philippe Lahorte">Dr. Philippe Lahorte - Medizintechnik, Patentwesen, Prüfer beim EPA
+                    München</option>
+                <option value="Patricia Schmid">Patricia Schmid - Chemie, Studentin</option>
+                <option value="Dr. Evi Klingsiek">Dr. Evi Klingsiek - Medizin, Gynäkologie, Praktizierende Gynäkologin
+                </option>
+                <option value="Lehramtsbotschafter des Landkreises Miesbach">Lehramtsbotschafter des Landkreises
+                    Miesbach - Lehramt Grundschule, Realschule, Gymnasium, Förderschule, Lehrerin/Lehrer an
+                    verschiedenen Schulformen</option>
+            </select>
+            <label for="selectedTalk2">Vortrag auswählen:</label>
+            <select id="selectedTalk2" class="selectedTalk" required>
+                <option value=""></option>
+                <option value="Christoph Schmid">Christoph Schmid - Bankwesen, kommunale Verwaltung</option>
+                <option value="Dr. Christian Wiesner">Dr. Christian Wiesner - Informatik, Softwarearchitekt im Bereich der kommunalen Verwaltung</option>
+                <option value="Albert Sedlmaier">Albert Sedlmaier - Maschinenbau, Unternehmer</option>
+                <option value="Beate Berndl">Beate Berndl - Wirtschaftswissenschaften, Diplomkauffrau, Consulting
+                </option>
+                <option value="Dr. Claus Schmid">Dr. Claus Schmid - Biologie, Patentwesen, Patentanwalt</option>
+                <option value="Dr. Stefan Schwerd">Dr. Stefan Schwerd - Informatik, BWL, Director IT, Datamanagement,
+                    Pharmaindustrie</option>
+                <option value="Dr. Regina Schwerd">Dr. Regina Schwerd - Chemie, Forschung Fraunhoferinstitut</option>
+                <option value="Thomas Jarzina">Thomas Jarzina - Kommunikationsdesign, Mediengestaltung</option>
+                <option value="Dr. Eichhorn">Dr. Eichhorn - Elektroingenieur, Digitale Eisenbahntechnik, Leiter eines
+                    globalen Geschäftsbereichs</option>
+                <option value="Dominik Grau">Dominik Grau - Betriebswirtschaft, Entwicklung von DIN-Normen im Bereich KI
+                </option>
+                <option value="Dr. Lilian Kleewitz">Dr. Lilian Kleewitz - Jura, Rechtsanwältin</option>
+                <option value="Dr. Philippe Lahorte">Dr. Philippe Lahorte - Medizintechnik, Patentwesen, Prüfer beim EPA
+                    München</option>
+                <option value="Patricia Schmid">Patricia Schmid - Chemie, Studentin</option>
+                <option value="Dr. Evi Klingsiek">Dr. Evi Klingsiek - Medizin, Gynäkologie, Praktizierende Gynäkologin
+                </option>
+                <option value="Lehramtsbotschafter des Landkreises Miesbach">Lehramtsbotschafter des Landkreises
+                    Miesbach - Lehramt Grundschule, Realschule, Gymnasium, Förderschule, Lehrerin/Lehrer an
+                    verschiedenen Schulformen</option>
+            </select>
+            <label for="selectedTalk3">Vortrag auswählen:</label>
+            <select id="selectedTalk3" class="selectedTalk" required>
+                <option value=""></option>
+                <option value="Christoph Schmid">Christoph Schmid - Bankwesen, kommunale Verwaltung</option>
+                <option value="Dr. Christian Wiesner">Dr. Christian Wiesner - Informatik, Softwarearchitekt im Bereich der kommunalen Verwaltung</option>
+                <option value="Albert Sedlmaier">Albert Sedlmaier - Maschinenbau, Unternehmer</option>
+                <option value="Beate Berndl">Beate Berndl - Wirtschaftswissenschaften, Diplomkauffrau, Consulting
+                </option>
+                <option value="Dr. Claus Schmid">Dr. Claus Schmid - Biologie, Patentwesen, Patentanwalt</option>
+                <option value="Dr. Stefan Schwerd">Dr. Stefan Schwerd - Informatik, BWL, Director IT, Datamanagement,
+                    Pharmaindustrie</option>
+                <option value="Dr. Regina Schwerd">Dr. Regina Schwerd - Chemie, Forschung Fraunhoferinstitut</option>
+                <option value="Thomas Jarzina">Thomas Jarzina - Kommunikationsdesign, Mediengestaltung</option>
+                <option value="Dr. Eichhorn">Dr. Eichhorn - Elektroingenieur, Digitale Eisenbahntechnik, Leiter eines
+                    globalen Geschäftsbereichs</option>
+                <option value="Dominik Grau">Dominik Grau - Betriebswirtschaft, Entwicklung von DIN-Normen im Bereich KI
+                </option>
+                <option value="Dr. Lilian Kleewitz">Dr. Lilian Kleewitz - Jura, Rechtsanwältin</option>
+                <option value="Dr. Philippe Lahorte">Dr. Philippe Lahorte - Medizintechnik, Patentwesen, Prüfer beim EPA
+                    München</option>
+                <option value="Patricia Schmid">Patricia Schmid - Chemie, Studentin</option>
+                <option value="Dr. Evi Klingsiek">Dr. Evi Klingsiek - Medizin, Gynäkologie, Praktizierende Gynäkologin
+                </option>
+                <option value="Lehramtsbotschafter des Landkreises Miesbach">Lehramtsbotschafter des Landkreises
+                    Miesbach - Lehramt Grundschule, Realschule, Gymnasium, Förderschule, Lehrerin/Lehrer an
+                    verschiedenen Schulformen</option>
+            </select>
+            
+            <button type="button" onclick="submitForm()" id="submitButton">Anmelden</button>
+            <Label for="submitButton" id="errorMessage"></Label>
+            
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
